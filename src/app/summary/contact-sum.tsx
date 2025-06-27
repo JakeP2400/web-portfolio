@@ -11,10 +11,19 @@ const ContactSummary = () => {
         {/* Contact 1 */}
         <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl"> 
           <h1 className="hover:underline text-lg font-bold mb-2">Email</h1>
-          <p className="text-center">You can reach me at: <a href="mailto:jakepole@hotmail.co.uk" className="text-blue-500 hover:underline">my email</a></p>
+          <p className="text-center">You can reach me at: <a href="mailto:jakepole4@gmail.com" className="text-blue-500 hover:underline">my email</a></p>
         </div>
       </div>
         {/* Contact 2 */}
+      <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl"> 
+          <h1 className="hover:underline text-lg font-bold mb-2">LinkedIn</h1>
+          <p className="text-center">You can add me on <a href="https://www.linkedin.com/in/jakep24/" className="text-blue-500 hover:underline">my LinkedIn</a></p>
+      </div>
+        {/* Contact 3 */}
+      <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl"> 
+          <h1 className="hover:underline text-lg font-bold mb-2">GitHub</h1>
+          <p className="text-center">You can follow me on <a href="https://github.com/JakeP2400" className="text-blue-500 hover:underline">my GitHub</a></p>
+      </div>
     </div>
   )
 }
