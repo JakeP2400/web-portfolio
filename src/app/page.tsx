@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "./Navbar";
+import Navbar from "./component/Navbar";
 import Summary from "./summary/summary"; // Assuming this is a valid import 
 import ProjSummary from "./summary/project-sum";
 import SkillsSummary from "./summary/skills-sum"; // Assuming this is a valid import
-import Footer from "./Footer"; // Assuming this is a valid import
+import Footer from "./component/Footer"; 
 import ContactSummary from "./summary/contact-sum";
 
 export default function Home() {

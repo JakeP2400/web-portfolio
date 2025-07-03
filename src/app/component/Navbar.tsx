@@ -23,8 +23,7 @@ const Navbar = () => {
                   height={10}
                   src="/logo.svg"
                   alt="Sample Logo"
-                  style={{ filter: 'brightness(0) invert(1)' }}
-                  className="h-8 w-auto" 
+                  className="h-8 w-auto transition-all duration-300 filter dark:brightness-0 dark:invert" 
                 />
               </a>
             </div>

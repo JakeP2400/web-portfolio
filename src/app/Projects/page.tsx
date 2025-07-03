@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../Navbar";
+import Navbar from "../component/Navbar";
 
 
 
@@ -8,7 +8,7 @@ const page = () => {
     <div>   
         <Navbar />
 
-        <p>Lol</p>
+        <p>Work in Progress</p>
     </div>
     
   )

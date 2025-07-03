@@ -10,19 +10,19 @@ const ProjSummary = () => {
       <div className="flex flex-col md:flex-row gap-3 justify-between items-stretch"> {/* Changed items-center to items-stretch */}
         {/* Project 1 */}
         <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl"> 
-          <h1 className="hover:underline text-lg font-bold mb-2">Building a basic honeypot!</h1>
-          <p className="text-center">Having a server in use for my home network, I like the ability to have a honeypot available to keep piece of mind</p>
+          <h1 className="hover:underline text-lg font-bold mb-2">Building a BadUSB Library</h1>
+          <p className="text-center">BadUSB is an app on a Flipper Zero which emulates a USB Rubber Ducky. Head over to my GitHub to view some of the custom scripts I have made</p>
         </div>
         {/* Project 2 */}
         <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl">
-          <h1 className="hover:underline text-lg font-bold mb-2">Building a simple password Cracker</h1>
-          <p className="text-center">To further understand password cracking and how people crack passwords, I have built a basic password cracker which I use on my own projects</p>
+          <h1 className="hover:underline text-lg font-bold mb-2">Building a password Cracker</h1>
+          <p className="text-center">I am in the progress of building a simple password cracker script which cycles through Brute-Forcing a password until correctly cracked</p>
 
         </div>
         {/* Project 3 */}
         <div className="flex-1 flex flex-col justify-center items-center bg-blue2 p-4 dark:bg-gray-600 rounded-xl">
-          <h1 className="hover:underline text-lg font-bold mb-2">Unknown Project</h1>  
-          <p className="text-center">Currently looking for a project so please contact me if you have any ideas.</p>
+          <h1 className="hover:underline text-lg font-bold mb-2">Keylogger</h1>  
+          <p className="text-center">Keyloggers are very useful tools, and I am currently exploring by building my own</p>
         </div>
       </div>
     </div>
