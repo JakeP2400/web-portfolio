@@ -5,7 +5,7 @@
 const SkillsSummary = () => {
 
   return (
-    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 bg-blue1 m-5 p-2.5 dark:bg-slate-800 rounded-lg shadow-lg">
+    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 bg-blue1 m-5 p-2.5 dark:bg-slate-800 rounded-lg shadow-lg dark:text-gray-300">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white hover:underline mb-5">Skills</h1>
       <h1>
       I have a massive passion for learning and Computer Science! I love learning new technologies and further developing my knowledge.
