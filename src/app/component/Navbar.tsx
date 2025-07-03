@@ -83,19 +83,19 @@ const Navbar = () => {
       {isClick && (
         <div className='md:hidden'>
           <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-            <a href="/aboutMe/" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
+            <a href="#Summary" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
                 About Me
               </a>
 
-              <a href="/Projects/" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
+              <a href="#Projects" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
                 Projects
               </a>
 
-              <a href="/Skills/" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
+              <a href="#Skills" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
                 Skills
               </a>
 
-              <a href="/Contact/" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
+              <a href="#Contact" className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5">
                 Contact
               </a>
           </div>
