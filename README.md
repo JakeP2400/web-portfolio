@@ -5,6 +5,6 @@ I am a passionate Computer Science student with a strong development in Networki
 I am currently studying at the University of Plymouth, and currently in the final few weeks of my placement year working within the University of Plymouth's Information Security Team as an Enterprise Security Analyst. I will be finishing my studies in May 2026 and looking to further persue my career from there.
 
 If you would like to visit my website go to 
-[website](www.jakepole.uk)
+[jakepole.uk](https://jakepole.uk)
 
 This portfolio will continue to update as my skills develop as well as my projects!
