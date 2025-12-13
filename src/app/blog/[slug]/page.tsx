@@ -6,10 +6,10 @@ import matter from "gray-matter";
 import Navbar from "../../component/Navbar";
 import Footer from "@/app/component/Footer";
 
-type BlogPostProps = { params: { slug: string } };
+type BlogPostProps = { params: Promise<{ slug: string }> };
 
 export default async function BlogPostPage({ params }: BlogPostProps) {
-  const { slug } = params;
+  const { slug } = await params;
   const filePath = path.join(process.cwd(), "src", "markdown", `${slug}.md`);
 
   if (!fs.existsSync(filePath)) notFound();

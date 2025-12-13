@@ -2,7 +2,6 @@
 title: "IPv4 vs IPv6: Benefits and Drawbacks"
 date: "2025-11-12"
 author: "Tech Insights"
-tags: ["networking", "IPv4", "IPv6", "internet"]
 ---
 
 # IPv4 and IPv6: A Comprehensive Overview
