@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -16,6 +18,12 @@
   --color-blue1: #96f5f9;
   --color-blue2: #bdfcf4;
   --color-blue3: #edfeec;
+  --prose-headings: theme(colors.violet.500);
+  --prose-links: theme(colors.indigo.500);
+  --prose-bold: theme(colors.gray.900);
+  --prose-code-bg: theme(colors.violet.100 / 0.1);
+  --prose-pre-bg: theme(colors.gray.900);
+  --prose-pre-code: theme(colors.white);
 }
 
 html {
