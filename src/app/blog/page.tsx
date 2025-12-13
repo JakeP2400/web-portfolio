@@ -2,12 +2,10 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import Navbar from "../component/Navbar";
-import Summary from "../summary/summary"; // Assuming this is a valid import 
-
 
 export default async function BlogPage() {
   // Path to your markdown directory
-  const markdownDir = path.join(process.cwd(),"src", "markdown");
+  const markdownDir = path.join(process.cwd(), "src", "markdown");
 
   // Read all filenames
   const files = fs.readdirSync(markdownDir);

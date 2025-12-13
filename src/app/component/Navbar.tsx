@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/Link";
 import React, { useState, useEffect, useRef } from "react";
 
 const Navbar = () => {
@@ -33,7 +34,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="/" className="text-white">
+              <Link href="/" className="text-white">
                 <Image
                   width={10}
                   height={10}
@@ -41,40 +42,40 @@ const Navbar = () => {
                   alt="Sample Logo"
                   className="h-8 w-auto transition-all duration-300 filter dark:brightness-0 dark:invert"
                 />
-              </a>
+              </Link>
             </div>
           </div>
 
           {/* Desktop Links */}
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <a
+              <Link
                 href="/#Summary"
                 className="text-black hover:bg-purple-800 hover:text-white rounded-lg p-1.5 dark:hover:bg-purple-400 dark:text-white dark:hover:text-black"
               >
                 About Me
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/#Projects"
                 className="text-black hover:bg-purple-800 hover:text-white rounded-lg p-1.5 dark:hover:bg-purple-400 dark:text-white dark:hover:text-black"
               >
                 Projects
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/#Skills"
                 className="text-black hover:bg-purple-800 hover:text-white rounded-lg p-1.5 dark:hover:bg-purple-400 dark:text-white dark:hover:text-black"
               >
                 Skills
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/#Contact"
                 className="text-black hover:bg-purple-800 hover:text-white rounded-lg p-1.5 dark:hover:bg-purple-400 dark:text-white dark:hover:text-black"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -124,37 +125,37 @@ const Navbar = () => {
       {isClick && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            <Link
               href="/#Summary"
               onClick={closeNavbar}
               className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5"
             >
               About Me
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/#Projects"
               onClick={closeNavbar}
               className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5"
             >
               Projects
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/#Skills"
               onClick={closeNavbar}
               className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5"
             >
               Skills
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/#Contact"
               onClick={closeNavbar}
               className="text-black block text-center hover:bg-purple-800 hover:text-white dark:hover:bg-purple-400 dark:text-white dark:hover:text-black rounded-lg p-1.5"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}

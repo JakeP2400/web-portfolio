@@ -85,7 +85,7 @@ export async function getPostData(slug: string) {
     ...(matterResult.data as {
       title: string;
       date: string;
-      [key: string]: any;
+      author: string;
     }),
   };
 }
