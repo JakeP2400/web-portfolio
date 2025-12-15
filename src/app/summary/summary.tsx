@@ -12,7 +12,7 @@ const Summary = () => {
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/3 flex-shrink-0 flex justify-center md:items-center">
           <Image
-            src="/LinkedinProf.jpeg"
+            src="/IMG_7937.JPG"
             alt="Profile"
             width={275}
             height={200}
