@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={`${darkMode && "dark"}`}>
       <div className="bg-blue3 dark:bg-gray-700 min-h-screen pt-16">
-        <Snowfall color="#82C3D9" />
+        <Snowfall color="#82C3D9" snowflakeCount={100} />
         <Navbar />
         <div id="Summary">
           <Summary />
