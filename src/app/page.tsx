@@ -7,7 +7,6 @@ import ProjSummary from "./summary/project-sum";
 import SkillsSummary from "./summary/skills-sum"; // Assuming this is a valid import
 import Footer from "./component/Footer";
 import ContactSummary from "./summary/contact-sum";
-import Snowfall from "react-snowfall";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +18,6 @@ export default function Home() {
   return (
     <div className={`${darkMode && "dark"}`}>
       <div className="bg-blue3 dark:bg-gray-700 min-h-screen pt-16">
-        <Snowfall color="#82C3D9" snowflakeCount={100} />
         <Navbar />
         <div id="Summary">
           <Summary />
